@@ -11,6 +11,7 @@ def root():
     else:
         return render_template('form.html')
 
+
 if __name__ == '__main__':
     my_app.debug = True
     my_app.run()
